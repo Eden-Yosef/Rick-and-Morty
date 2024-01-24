@@ -10,7 +10,7 @@ To run the project on your local machine, follow these steps:
 
 📂 **Open the project**: Open the project folder in VS Code in a way that is convenient for you.
 
-📦 **Install modules**: Install the required packages by running the following command: 
+📦 **Install modules**: Install the required packages by running the following command in Terminal: 
 
 ```
 npm i
