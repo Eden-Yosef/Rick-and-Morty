@@ -12,9 +12,13 @@ To run the project on your local machine, follow these steps:
 
 📦 **Install modules**: Install the required packages by running the following command: 
 
+```
 npm i
+```
 or
+```
 npm install
+```
 
 ## Running the Project
 
