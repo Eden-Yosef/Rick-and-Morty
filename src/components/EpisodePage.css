@@ -1,0 +1,110 @@
+h1 {
+  font-family: "Arial", sans-serif;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+}
+
+body.dark-mode h1 {
+  color: #ffffff;
+  border-bottom: 2px solid white;
+}
+
+.detailsEpisode {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: cursive;
+}
+
+.image {
+  max-width: 50%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  margin-inline: auto;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.previous {
+  width: 105px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 0px 15px;
+  background-color: #f8ea2747;
+  border-radius: 50px;
+  color: #18151f;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  font-weight: 600;
+  font-family: system-ui;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+body.dark-mode .previous {
+  background-color: rgb(66, 66, 66);
+  color: white;
+}
+
+.arrow {
+  position: absolute;
+  right: 0;
+  width: 30px;
+  height: 100%;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: self-end;
+  font-family: math;
+}
+
+.previous:hover {
+  background-color: #fff;
+  transition-duration: 0.2s;
+}
+
+body.dark-mode .previous:hover {
+  background-color: rgb(77, 77, 77);
+}
+
+.previous:hover .arrow {
+  animation: slide-right 0.6s ease-out both;
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(-10px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.previous:active {
+  transform: translate(1px, 1px);
+  transition-duration: 0.2s;
+}
