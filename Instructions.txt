@@ -1,0 +1,6 @@
+Extract the project from the ZIP folder and open it in VS Code.
+Run the following commands in the terminal:
+1) npm i  (to install all modules)
+2) npm start
+
+Hope you enjoy • Eden Yosef 
