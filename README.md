@@ -34,5 +34,6 @@ npm start
 
 📋 "Instructions" file included in project.
 
+________________________________________________________
 
 Hope you'll like it! 😊
